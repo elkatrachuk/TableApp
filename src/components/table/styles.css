@@ -1,0 +1,51 @@
+.dataTable {
+  border: 1px solid #c0c0c0;
+  border-collapse: collapse;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.dataTable tr:hover {
+  background-color: #ddd;
+}
+
+.dataTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.dataTable th {
+  border: 1px solid #c0c0c0;
+  padding: 10px;
+  background: #f0f0f0;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+.dataTable td {
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+.moreButton {
+  margin: auto;
+  display: block;
+}
+.buttonGreen {
+  background-color: #04aa6d;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 6px 18px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.buttonWrap {
+  padding-top: 10px;
+}
+.selectSize {
+  height: 32px;
+  width: 72px;
+  cursor: pointer;
+}
